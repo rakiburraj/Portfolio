@@ -256,4 +256,15 @@ caption {
 
 .resume-button:hover {
   background-color: #0044cc;
+
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00acee; /* Light blue on hover */
+  border-bottom: 2px solid #00acee; /* Optional underline effect */
 }
