@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakibur-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+         nav ul li a {
+            text-decoration: none;
+            color: white;
+           
+        }
+      
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+        
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+
+        .firstsection > div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 2rem;
+            
+
+        }
+
+        .rightsection img {
+            width: 80%;
+           
+        }
+        .purple{
+            color:rgb(153, 153, 226);
+        }
+        .intro{
+           margin-top: 5px;
+        }
+        #element{
+           color:rgb(153, 153, 226);
+        }
+        .slide-in {
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: slideIn 2s forwards ease-out;
+  }
+
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.pages {
+      padding: 100px 20px;
+      margin-top: 50px;
+      height: 80vh;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rakibur's Portfolio</div>
+            <div class="right">
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                
+                  <li><a href="#activities">Activities & Interests</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#contact">Contact Me</a></li>
+                   
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section  class="firstsection">
+            <div id="home" class="leftsection">
+                Hi,I am <span class="purple">Rakibur Rahman</span>,
+                <div>
+
+
+                    a Computer Science & Engineering undergraduate student, currently studying and focused on building
+                    real-world software solutions and growing as a developer.
+                    
+
+                </div>
+                <div>
+                    As a person i am
+                </div>
+             <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="WhatsApp Image 2025-08-02 at 1.29.18 PM.jpeg" alt="Rakibur Rahamn" class="slide-in">
+            </div>
+
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <div class="intro">
+        <script>
+    var typed = new Typed('#element', {
+      strings: ['Enthusiastic','Driven',' and Focused'],
+      typeSpeed: 100,
+    });
+  </script>
+  
+    </div>
+    <div id="resume" style="text-align: center; margin-top: 20px;">
+    <a href="Raj CV.pdf" download class="resume-button">Download My Resume (PDF)</a>
+  </div>
+<section id="education" class="pages">
+    <h1>Education</h1>
+    <div class="wrap">
+        <table>
+    <caption>My Education</caption>
+    <thead>
+      <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>Details</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>BSc in Computer Science & Engineering</td>
+        <td>University Of Asia Pacific</td>
+        <td>2023 - Present</td>
+        <td>Currently in 3rd Year, 1st Semester</td>
+        <td>Current CGPA 3.50</td>
+      </tr>
+      <tr>
+        <td>Higher Secondary Certificate (HSC)</td>
+        <td>Engineering University School and College</td>
+        <td>2019 - 2021</td>
+        <td>Science Group</td>
+        <td>GPA 5.00</td>
+      </tr>
+      <tr>
+        <td>Secondary School Certificate (SSC)</td>
+        <td>Engineering University School and College</td>
+        <td>2008 - 2019</td>
+        <td>Science Group</td>
+        <td>GPA 5.00</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+</section>
+    <section id="skills" class="pages">
+         <h1>Skills</h1>
+        <h2>The Programming languages i know</h2>
+      <div class="wrapper">
+    <div class="languages-container">
+      <div class="languages"><img style="height: 200px;" src="download.png" alt=""></div>
+      <div class="languages"><img style="height: 200px;" src="download (2).png" alt=""></div>
+      <div class="languages"><img style="height:200px;" src="png-transparent-c-logo-c-programming-language-icon-letter-c-blue-logo-computer-program-thumbnail.png" alt=""></div>
+      <div class="languages"><img style="height: 200px;" src="download (1).png" alt=""></div>
+      <div class="languages"><img style="height: 200px;" src="download (3).png" alt=""></div>
+    </div>
+  </div>
+
+    </section>
+    <section id="activities" class="pages">
+        <h1>Activities & Interests</h1>
+   <div class="activity">
+         <h2>Clubs & Leadership</h2>
+  <ul>
+    <li>Executive Member, <strong>Sports Club, Department of CSE, UAP</strong></li>
+    <li>Executive Member, <strong>Entrepreneurship and Career Development Club (ECDC), UAP</strong></li>
+  </ul>
+
+  <h2>Football Journey</h2>
+  <ul>
+    <li>Goalkeeper, <strong>CSE Department Football Team</strong></li>
+    <li>Goalkeeper, <strong>UAP Main Football Team</strong></li>
+    <li>Played in <strong>Inter-University Football Tournaments</strong></li>
+    <li>Champion & Runner-Up with Department Team</li>
+    <li>Best Goalkeeper, Champion & Runner-Up in School & College Level</li>
+    <li>Passionate about football since school life</li>
+  </ul>
+   </div>
+    </section>
+    <section id="projects" class="pages">
+        <h1>Projects</h1>
+       <div class="project-wrap">
+            <div class="project">
+              <h2>📁 ICU Management System (SQL)</h2>
+    <p>A database system with ER diagram and full SQL backend.</p>
+    <a href="ICU-management.html" class="resume-button" target="_blank">View Project</a>
+    <br><br>
+                <h1>🚧 Coming Soon 🚧</h1>
+    <p>I am working hard to launch more awesome projects!</p>
+            </div>
+       </div>
+    </section>
+    <section id="contact" class="pages">
+        <h1>Contact Me</h1>
+        <div class="contact-wrap">
+           <div class="contact-container">
+    
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email Address" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:your-email@gmail.com" title="Gmail">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/your-github-username" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <p>© 2025 Rakibur Rahman Raj. All rights reserved.</p>
+  </footer>
+ <script>
+  const sections = document.querySelectorAll('.pages, .activity, .project, .contact-container');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = "translateY(0)";
+        entry.target.style.transition = "all 1s ease";
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  sections.forEach(section => {
+    section.style.opacity = 0;
+    section.style.transform = "translateY(50px)";
+    observer.observe(section);
+  });
+</script>
+
+
+</body>
+
+</html>
