@@ -152,7 +152,9 @@
         <script>
     var typed = new Typed('#element', {
       strings: ['Enthusiastic','Driven',' and Focused'],
-      typeSpeed: 100,
+      typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
     });
   </script>
   
@@ -262,43 +264,26 @@
   </div>
         </div>
     </section>
-    <footer class="footer">
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" title="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="mailto:your-email@gmail.com" title="Gmail">
-        <i class="fas fa-envelope"></i>
-      </a>
-      <a href="https://github.com/your-github-username" target="_blank" title="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <p>© 2025 Rakibur Rahman Raj. All rights reserved.</p>
-  </footer>
- <script>
-  const sections = document.querySelectorAll('.pages, .activity, .project, .contact-container');
+   <footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/rakiburraj" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
 
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = 1;
-        entry.target.style.transform = "translateY(0)";
-        entry.target.style.transition = "all 1s ease";
-      }
-    });
-  }, {
-    threshold: 0.2
-  });
+    <a href="mailto:rakiburrahman092003@gmail.com" title="Gmail">
+      <i class="fas fa-envelope"></i>
+    </a>
 
-  sections.forEach(section => {
-    section.style.opacity = 0;
-    section.style.transform = "translateY(50px)";
-    observer.observe(section);
-  });
-</script>
+    <a href="https://github.com/rakiburraj" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <p>© 2025 Rakibur Rahman Raj. All rights reserved.</p>
+</footer>
+
 
 
 </body>
+
 
 </html>
